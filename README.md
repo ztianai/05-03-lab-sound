@@ -7,6 +7,7 @@ One of the capabilities that mobile devices usually include is the ability to pl
 ### 1. Check out the code
 Make sure you fork and clone this repository! Take a moment to read through the `MainActivity` code to get a sense of what is provided for you. In particular, note the touch event handling (like we used in class), as well as the Google-provided code for a [full-screen](http://developer.android.com/training/system-ui/immersive.html) app. You might also look at the provided `getPianoKey()` method, which returns an `int` representing _which_ piano sound you should play on top (from middle C to B).
 
+- The app will run in landscape mode (declared in the `Manifest`), so you'll want to rotate your phone or emulator!
 
 ### 2. Create the SoundPool object
 The first step is to instantiate a new `SoundPool` object. You should do this in the provided `initializeSoundPool()` helper method to keep things neat.
